@@ -60,7 +60,7 @@ module Berkshelf
     end
 
     def to_s
-      "#{self.class.location_key}: #{to_display}"
+      "git: #{to_display}"
     end
 
     private
